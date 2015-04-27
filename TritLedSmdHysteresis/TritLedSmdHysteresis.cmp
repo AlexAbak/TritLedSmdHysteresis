@@ -1,0 +1,108 @@
+Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = 27.04.2015 13:46:47
+
+BeginCmp
+TimeStamp = /55216C48;
+Reference = D1;
+ValeurCmp = -;
+IdModule  = LEDs:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /55216CBE;
+Reference = D2;
+ValeurCmp = +;
+IdModule  = LEDs:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /553CA317;
+Reference = P1;
+ValeurCmp = Power;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /553CA3EA;
+Reference = P2;
+ValeurCmp = In;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x01;
+EndCmp
+
+BeginCmp
+TimeStamp = /553E28A2;
+Reference = R1;
+ValeurCmp = ?Ω;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /553E2A90;
+Reference = R2;
+ValeurCmp = ?Ω;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /552173D2;
+Reference = R3;
+ValeurCmp = ?Ω;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55217404;
+Reference = R4;
+ValeurCmp = ?Ω;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /553E270C;
+Reference = R5;
+ValeurCmp = ?Ω;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /553E0E89;
+Reference = R6;
+ValeurCmp = ?Ω;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /553E1567;
+Reference = R7;
+ValeurCmp = ?Ω;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /553E0CFA;
+Reference = R8;
+ValeurCmp = ?Ω;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55216BBD;
+Reference = R9;
+ValeurCmp = 220Ω;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55216C0B;
+Reference = R10;
+ValeurCmp = 220Ω;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55216A7A;
+Reference = U1;
+ValeurCmp = LM393;
+IdModule  = Power_Integrations:SO-8;
+EndCmp
+
+EndListe

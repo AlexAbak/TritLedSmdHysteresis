@@ -1,0 +1,68 @@
+.HEA
+.TIM 27.04.2015 13:45:33
+.APP "Eeschema (after 2015-mar-04 BZR unknown)-product"
+
+.ADD_COM     U1     "LM393"
+.ADD_COM     R9     "220Ω"
+.ADD_COM     R10     "220Ω"
+.ADD_COM     D1     "-"
+.ADD_COM     D2     "+"
+.ADD_COM     R3     "?Ω"
+.ADD_COM     R4     "?Ω"
+.ADD_COM     P1     "Power"
+.ADD_COM     P2     "In"
+.ADD_COM     R8     "?Ω"
+.ADD_COM     R6     "?Ω"
+.ADD_COM     R7     "?Ω"
+.ADD_COM     R5     "?Ω"
+.ADD_COM     R1     "?Ω"
+.ADD_COM     R2     "?Ω"
+
+
+.ADD_TER   U1   2     "Net-(R1-Pad2)"
+.TER       R1   2
+            R2   1
+
+.ADD_TER   R5   1     "Net-(R5-Pad1)"
+.TER       U1   3
+            R7   2
+
+.ADD_TER   D1   2     "Net-(D1-Pad2)"
+.TER       R9   1
+
+.ADD_TER   U1   6     "Net-(R6-Pad1)"
+.TER       R6   1
+
+.ADD_TER   U1   8     "Net-(D1-Pad1)"
+.TER       D1   1
+            D2   1
+            R3   1
+            P1   1
+            R1   1
+
+.ADD_TER   R10   1     "Net-(D2-Pad2)"
+.TER       D2   2
+
+.ADD_TER   R5   2     "Net-(P2-Pad1)"
+.TER       P2   1
+            R6   2
+
+.ADD_TER   R2   2     "Net-(P1-Pad2)"
+.TER       U1   4
+            P1   2
+            R4   2
+
+.ADD_TER   U1   1     "Net-(R7-Pad1)"
+.TER       R7   1
+            R9   2
+
+.ADD_TER   U1   5     "Net-(R3-Pad2)"
+.TER       R4   1
+            R3   2
+            R8   2
+
+.ADD_TER   R10   2     "Net-(R10-Pad2)"
+.TER       R8   1
+            U1   7
+
+.END
