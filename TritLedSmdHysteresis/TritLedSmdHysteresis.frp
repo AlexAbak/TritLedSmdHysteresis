@@ -1,22 +1,22 @@
 .HEA
-.TIM 27.04.2015 13:45:33
-.APP "Eeschema (after 2015-mar-04 BZR unknown)-product"
+.TIM Вт. 28 апр. 2015 23:19:14
+.APP "Eeschema 0.201504281001+5628~23~ubuntu15.04.1-product"
 
 .ADD_COM     U1     "LM393"
 .ADD_COM     R9     "220Ω"
 .ADD_COM     R10     "220Ω"
 .ADD_COM     D1     "-"
 .ADD_COM     D2     "+"
-.ADD_COM     R3     "?Ω"
-.ADD_COM     R4     "?Ω"
+.ADD_COM     R3     "22КΩ"
+.ADD_COM     R4     "5,1КΩ"
 .ADD_COM     P1     "Power"
 .ADD_COM     P2     "In"
-.ADD_COM     R8     "?Ω"
-.ADD_COM     R6     "?Ω"
-.ADD_COM     R7     "?Ω"
-.ADD_COM     R5     "?Ω"
-.ADD_COM     R1     "?Ω"
-.ADD_COM     R2     "?Ω"
+.ADD_COM     R8     "4,7КΩ"
+.ADD_COM     R6     "4,7КΩ"
+.ADD_COM     R7     "15КΩ"
+.ADD_COM     R5     "4,7КΩ"
+.ADD_COM     R1     "5,6Ω"
+.ADD_COM     R2     "10КΩ"
 
 
 .ADD_TER   U1   2     "Net-(R1-Pad2)"

@@ -1,4 +1,4 @@
-* EESchema Netlist Version 1.1 (Spice format) creation date: 27.04.2015 13:45:41
+* EESchema Netlist Version 1.1 (Spice format) creation date: Вт. 28 апр. 2015 23:19:22
 
 * To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
 * To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
@@ -9,15 +9,15 @@ R9  Net-_D1-Pad2_ Net-_R7-Pad1_ 220Ω
 R10  Net-_D2-Pad2_ Net-_R10-Pad2_ 220Ω		
 D1  Net-_D1-Pad1_ Net-_D1-Pad2_ -		
 D2  Net-_D1-Pad1_ Net-_D2-Pad2_ +		
-R3  Net-_D1-Pad1_ Net-_R3-Pad2_ ?Ω		
-R4  Net-_R3-Pad2_ Net-_P1-Pad2_ ?Ω		
+R3  Net-_D1-Pad1_ Net-_R3-Pad2_ 22КΩ		
+R4  Net-_R3-Pad2_ Net-_P1-Pad2_ 5,1КΩ		
 P1  Net-_D1-Pad1_ Net-_P1-Pad2_ Power		
 P2  Net-_P2-Pad1_ In		
-R8  Net-_R10-Pad2_ Net-_R3-Pad2_ ?Ω		
-R6  Net-_R6-Pad1_ Net-_P2-Pad1_ ?Ω		
-R7  Net-_R7-Pad1_ Net-_R5-Pad1_ ?Ω		
-R5  Net-_R5-Pad1_ Net-_P2-Pad1_ ?Ω		
-R1  Net-_D1-Pad1_ Net-_R1-Pad2_ ?Ω		
-R2  Net-_R1-Pad2_ Net-_P1-Pad2_ ?Ω		
+R8  Net-_R10-Pad2_ Net-_R3-Pad2_ 4,7КΩ		
+R6  Net-_R6-Pad1_ Net-_P2-Pad1_ 4,7КΩ		
+R7  Net-_R7-Pad1_ Net-_R5-Pad1_ 15КΩ		
+R5  Net-_R5-Pad1_ Net-_P2-Pad1_ 4,7КΩ		
+R1  Net-_D1-Pad1_ Net-_R1-Pad2_ 5,6Ω		
+R2  Net-_R1-Pad2_ Net-_P1-Pad2_ 10КΩ		
 
 .end

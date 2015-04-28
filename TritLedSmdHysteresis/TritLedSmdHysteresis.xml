@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>E:/Users/itprog10.BANK/Documents/Личное/gits/TritLedSmdHysteresis/TritLedSmdHysteresis/TritLedSmdHysteresis.sch</source>
-    <date>27.04.2015 13:45:46</date>
-    <tool>Eeschema (after 2015-mar-04 BZR unknown)-product</tool>
+    <source>/home/alex/Projects/Trit/TritLedSmdHysteresis/TritLedSmdHysteresis/TritLedSmdHysteresis.sch</source>
+    <date>Вт. 28 апр. 2015 23:19:26</date>
+    <tool>Eeschema 0.201504281001+5628~23~ubuntu15.04.1-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Индикатор трита компактный</title>
@@ -55,14 +55,14 @@
       <tstamp>55216CBE</tstamp>
     </comp>
     <comp ref="R3">
-      <value>?Ω</value>
+      <value>22КΩ</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>552173D2</tstamp>
     </comp>
     <comp ref="R4">
-      <value>?Ω</value>
+      <value>5,1КΩ</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -83,42 +83,42 @@
       <tstamp>553CA3EA</tstamp>
     </comp>
     <comp ref="R8">
-      <value>?Ω</value>
+      <value>4,7КΩ</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>553E0CFA</tstamp>
     </comp>
     <comp ref="R6">
-      <value>?Ω</value>
+      <value>4,7КΩ</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>553E0E89</tstamp>
     </comp>
     <comp ref="R7">
-      <value>?Ω</value>
+      <value>15КΩ</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>553E1567</tstamp>
     </comp>
     <comp ref="R5">
-      <value>?Ω</value>
+      <value>4,7КΩ</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>553E270C</tstamp>
     </comp>
     <comp ref="R1">
-      <value>?Ω</value>
+      <value>5,6Ω</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>553E28A2</tstamp>
     </comp>
     <comp ref="R2">
-      <value>?Ω</value>
+      <value>10КΩ</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -141,8 +141,8 @@
         <field name="Value">LED</field>
       </fields>
       <pins>
-        <pin num="1" name="A" type="passive"/>
-        <pin num="2" name="K" type="passive"/>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="device" part="R">
@@ -217,13 +217,13 @@
   </libparts>
   <libraries>
     <library logical="device">
-      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+      <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
     <library logical="conn">
-      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+      <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
     <library logical="linear">
-      <uri>C:\Program Files\KiCad\share\kicad\library\linear.lib</uri>
+      <uri>/usr/share/kicad/library/linear.lib</uri>
     </library>
   </libraries>
   <nets>
